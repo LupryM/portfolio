@@ -3,25 +3,36 @@ export interface Project {
     description: string;
     img: string;
     url: string;
+    tags?: string[];
 }
 
 export const projects: Project[] = [
     {
         title: "Vuza Trading",
-        description: "He can fix your walls.",
-        img: "/vuzatrading.jpeg", // Assuming you'll place this in the `public` folder
+        description: "A professional trading platform with real-time analytics and user-friendly interface.",
+        img: "/preview/vuza-trading.png",
         url: "https://vuzatrading.com",
+        tags: ["Automated Security", "Aluminum Solutions", "CCTV", "Alarm Systems"]
     },
     {
-        title: "Project Two",
-        description: "A description for the second project.",
-        img: "/project-two.png", // Example image
-        url: "https://example.com/two",
+        title: "Monare Selahle Portfolio",
+        description: "Modern portfolio for a Computer Science student.",
+        img: "/preview/monare-selahle.png",
+        url: "https://monareselahle.co.za",
+        tags: ["Software Engineer", "Portfolio"]
     },
     {
-        title: "Project Three",
-        description: "A description for the third project.",
-        img: "/project-three.png", // Example image
-        url: "https://example.com/three",
+        title: "Shots By Ozee",
+        description: "A photographer and visionary creative currently studying Chemical Engineering.",
+        img: "/preview/shots-by-ozee.png",
+        url: "https://ozee-nine.vercel.app",
+        tags: ["Photography", "Portfolio"]
     },
+    {
+        title: "Gordian Malaka",
+        description: "A film student who has a passion for photography.",
+        img: "/preview/gordian-malaka.png",
+        url: "https://uvhu-portfolio-9rw1.vercel.app/",
+        tags: ["Photography", "Videography","Portfolio"]
+    }
 ];
