@@ -34,7 +34,7 @@ export default function Home() {
                 Professional Web Design for <span className="text-accent">Growing Businesses</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 text-balance">
-                Clean, modern, and affordable websites that help small businesses build credibility and reach customers online.
+                Clean, modern, and affordable websites that help growing businesses build credibility and reach customers online.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#packages">
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="grid md:grid-cols-4 gap-8 mb-8">
                 <div>
                   <h3 className="font-bold mb-4">LM Studios</h3>
-                  <p className="text-sm text-muted-foreground">Professional web design for small businesses that want to grow online.</p>
+                  <p className="text-sm text-muted-foreground">Professional web design for growing businesses that want to grow online.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-4">Services</h4>

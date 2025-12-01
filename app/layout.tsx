@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'LM Studios - Professional Web Design for Small Businesses',
-  description: 'Professional, modern, and affordable websites for small businesses. Clean designs that build credibility and drive growth.',
+  title: 'LM Studios - Professional Web Design for Growing Businesses',
+  description: 'Professional, modern, and affordable websites for growing businesses. Clean designs that build credibility and drive growth.',
   generator: 'v0.app',
   icons: {
     icon: [

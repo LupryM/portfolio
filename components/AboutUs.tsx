@@ -8,7 +8,7 @@ export default function AboutUs() {
     <section id="about" className="py-20 px-6 border-t border-border bg-card/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">A Small Team with Big Passion</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">A Team with Big Passion</h2>
           <p className="text-lg text-muted-foreground">
             Meet the minds behind LM Studios.
           </p>
@@ -19,7 +19,7 @@ export default function AboutUs() {
           <div className="md:col-span-3 space-y-6">
             <h3 className="text-3xl font-bold">Direct Collaboration, No Middlemen</h3>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              We're a dedicated duo—we design and we develop—we believe that the best results come from direct collaboration. When you work with us, you speak directly to the experts building your site. This means clearer communication, a faster workflow, and a final product that truly reflects your vision.
+Our compact and highly skilled team allows us to work efficiently and personally on every project. When you work with us, you collaborate directly with the designer and the developer who are building your site. This ensures clear communication, fast delivery, and a final result that reflects your vision perfectly.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               Our lean structure allows us to be agile, personal, and fully invested in your success. We combine our complementary skills to build websites that are not only beautiful but also fast, secure, and reliable.
