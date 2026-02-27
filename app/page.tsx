@@ -9,14 +9,14 @@ import { Button } from "@/components/ui/button";
 import ProjectsView from "@/components/ProjectCarousel"; // Renamed to ProjectsView
 import { QuoteForm } from "@/components/QuoteForm";
 import AboutUs from "@/components/AboutUs";
-import { ParticleBackground } from "@/components/ParticleBackground";
 import Packages from "@/components/Packages";
 import Image from "next/image";
+import ParticleBackgroundWrapper from "@/components/ParticleBackgroundWrapper";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen text-foreground">
-      <ParticleBackground />
+      <ParticleBackgroundWrapper />
       <main className="relative z-10">
         {/* Navigation */}
         <nav className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
